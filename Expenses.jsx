@@ -36,7 +36,7 @@ function Expenses(){
         .catch(err=>toast.error('Failed'))
     }
 
-    const handleSubmit=e=>{
+    const handleSubmit=(e)=>{
         e.preventDefault()
         console.log(selectedPhoto)
         if(info.totalExp=='' || info.date==='' || info.descr==='' || selectedPhoto===null){
@@ -89,7 +89,6 @@ function Expenses(){
     useEffect(()=>{
         loadUsers()
     },[])
-
     return (
         <>  
         <div className="container-fluid">
