@@ -50,7 +50,7 @@ function Dashboard(){
                             </tr>
                         </thead>
                         <tbody>
-                            {settles.map((x)=>(
+                            {settles.map(x=>(
                                 <tr>
                                     <td>{x.date}</td>
                                     <td>{x.group.name}</td>
