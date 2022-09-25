@@ -10,6 +10,6 @@ import com.splitexp.models.Settlement;
 @Repository
 public interface SettlementRepository extends JpaRepository<Settlement, Integer> {
 
-	List<Settlement> findByGroupIdAndPaidToUidOrPaidByUid(int groupid,int toid,int byid);
+	List<Settlement> findByGroupIdAndPaidToUidOrGroupIdAndPaidByUid(int groupid,int toid,int groupid2,int byid);
 	List<Settlement> findByPaidToUidOrPaidByUid(int toid,int byid);
 }

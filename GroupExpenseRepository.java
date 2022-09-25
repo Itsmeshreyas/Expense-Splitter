@@ -4,6 +4,7 @@ import java.util.List;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
+import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
 import com.splitexp.dtos.GroupExpenseByUserResponse;
@@ -16,6 +17,6 @@ public interface GroupExpenseRepository extends JpaRepository<GroupExpense, Inte
 	List<GroupExpense> findByGroupId(int id);
 	List<GroupExpense> findByPaidByUid(int id);
 	@Query(value = "SELECT new com.splitexp.dtos.GroupExpenseByUserResponse(g.paidBy,g.group,sum(g.amount)) FROM GroupExpense g where g.group=:group GROUP BY group_id,paidBy_id")
-	List<GroupExpenseByUserResponse> getGroupExpense(UsersGroup group);
+	List<GroupExpenseByUserResponse> getGroupExpense(@Param("group")UsersGroup group);
 	
 }
