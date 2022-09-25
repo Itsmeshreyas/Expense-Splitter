@@ -5,6 +5,8 @@ import { Link, useNavigate } from "react-router-dom";
 import loginvalidation from "../validations/loginvalidation"
 import { toast } from "react-toastify";
 
+
+//Login Page Component
 function LoginPage(){
     const dispatch=useDispatch()
     const navigate=useNavigate()
