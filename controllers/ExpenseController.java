@@ -22,10 +22,7 @@ import com.splitexp.services.GroupExpenseService;
 @RestController
 @RequestMapping("api/expenses")
 public class ExpenseController {
-	
-	
 	@Autowired private GroupExpenseService geservice;
-	
 	@PostMapping
 	public ResponseEntity<?> addGroupExpense(AddExpenseDTO dto,MultipartFile pic){
 		System.out.println(dto.getExps());
@@ -58,5 +55,4 @@ public class ExpenseController {
 	public ResponseEntity<?> groupExpensesReport(@PathVariable("id") int id){
 		return ResponseEntity.ok(geservice.getGroupExpenseReport(id));
 	}
-
 }
