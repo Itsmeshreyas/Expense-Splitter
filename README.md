@@ -14,3 +14,11 @@ https://github.com/Itsmeshreyas/Expense-Splitter/tree/main/ExpenseSplitter-BackE
 
 4. How to Install and Run the Project
 
+Starting React Server:
+npm start
+Runs the app in the development mode.
+Open http://localhost:3000 to view it in your browser.
+
+Starting SpringBoot Tomcat Server:
+run the SpringBoot Application Context
+It will Deploy Application on port 8080
