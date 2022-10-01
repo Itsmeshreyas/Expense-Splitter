@@ -6,19 +6,19 @@ This application accomplishes splitting bills easily & keep track of expenses.It
 
 3. Table of Contents
 
-FrontEnd Repository Link:
-https://github.com/Itsmeshreyas/Expense-Splitter/tree/main/ExpenseSplitter-FrontEnd
+   FrontEnd Repository Link:
+   https://github.com/Itsmeshreyas/Expense-Splitter/tree/main/ExpenseSplitter-FrontEnd
 
-Backend Repository Link:
-https://github.com/Itsmeshreyas/Expense-Splitter/tree/main/ExpenseSplitter-BackEnd
+   Backend Repository Link:
+   https://github.com/Itsmeshreyas/Expense-Splitter/tree/main/ExpenseSplitter-BackEnd
 
 4. How to Install and Run the Project
 
-Starting React Server:
-npm start
-Runs the app in the development mode.
-Open http://localhost:3000 to view it in your browser.
+   Starting React Server:
+   npm start
+   Runs the app in the development mode.
+   Open http://localhost:3000 to view it in your browser.
 
-Starting SpringBoot Tomcat Server:
-run the SpringBoot Application Context
-It will Deploy Application on port 8080
+   Starting SpringBoot Tomcat Server:
+   run the SpringBoot Application Context
+   It will Deploy Application on port 8080
