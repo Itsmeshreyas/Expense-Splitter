@@ -7,8 +7,8 @@ This application accomplishes splitting bills easily & keep track of expenses. I
 
 ## Features
  1.DASHBOARD - User dashboard - a web portal allowing registered user to                     view and manage groups and transactions, history ,etc.    
- 2.ADD AN EXPENSE - User can add his own or others expenditure for particular event. Add a friend, enter an event , name, amount, paid by who, and type of  splitting ,date,etc. Add bill photo as a proof.
-3.SETTLE UP - Payment can be settled using payment gatway or by cash if done so it's record is maintained.  4.RECENT-ACTIVITY - All past expenses and settlements are organized or shown in one place.
+ 2.ADD AN EXPENSE - User can add his own or others expenditure for particular event. Add a friend, enter an event , name, amount, paid by who, and type of  splitting      ,date,etc. Add bill photo as a proof.
+ 3.SETTLE UP - Payment can be settled using payment gatway or by cash if done so it's record is maintained.  4.RECENT-ACTIVITY - All past expenses and settlements are    organized or shown in one place.
 
 ## Used Technologies
 -	Back-end: Spring , JPA / Hibernate
