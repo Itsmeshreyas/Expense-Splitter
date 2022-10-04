@@ -14,26 +14,25 @@ This application accomplishes splitting bills easily & keep track of expenses. I
  
  4.RECENT-ACTIVITY - All past expenses and settlements are    organized and shown at one place.
 
-## Used Technologies
--	Back-end: Spring , JPA / Hibernate
--	Front-end: TypeScript, React.js, Redux Toolkit
--	REST API
+## Technologies Used 
+-	Back-end: Spring Boot , JPA / Hibernate ,REST API
+-	Front-end: TypeScript, React.js, Redux Toolkit	
 -	Server Build: Maven
 -	Client Build: npm
 
 
 ## Installation
-  - Make use of cloned project folder on machine.
-  - Make new Environment to run the project.
+  - Clone This Repository on your Local Machine.
+  - Create new Environment to run the project.
   
-    **Frontend will be manage in vscode Tool.**
+    **Frontend will be managed in vscode IDE.**
      - create new React project.
        npx create-react-app ExpenseSplitterApp
      - install node modules use below command
        npm install
      - copy the files from respective folder from clone folder to new environment project folders.
      - install the required dependancies as follows.
-	"@emotion/react": "^11.10.4",
+    "@emotion/react": "^11.10.4",
     "@mui/icons-material": "^5.10.3",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -50,16 +49,16 @@ This application accomplishes splitting bills easily & keep track of expenses. I
 
   - Go to terminal and run the project on 3000 port
     use below commands
-     - cd MangoEcommerceApp
+     - cd ExpenseSplitterApp
      - npm start
 	  - Message shown app sucessfully run on port 3000.
 
-    **Backend will be manage in SpringBoot Tool**
+    **Backend will be managed in SpringBoot IDE**
      - create new Spring Project else directly open the cloned backend project in spring boot by importing it to the environment.
      - update the project 
      - go to application properties do the respective changes as per your database. 
        eg:- username password make connection to database .
-     - run the project on inbuild tomcat 8080 port
+     - run the project on inbuild tomcat server which runs at 8080 port
 
 ### Your web Application is ready to use on your machine.
    
