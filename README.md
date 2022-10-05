@@ -16,7 +16,7 @@ This application accomplishes splitting bills easily & keep track of expenses. I
 
 ## Technologies Used 
 -	Back-end: Spring Boot , JPA / Hibernate ,REST API
--	Front-end: TypeScript, React.js, Redux Toolkit	
+-	Front-end: JavaScript, React.js, Redux Toolkit	
 -	Server Build: Maven
 -	Client Build: npm
 
