@@ -67,7 +67,7 @@ This application accomplishes splitting bills easily & keep track of expenses. I
  
 <h2 align="center"> Project Contributors </h2>
 <div align="center">
-			<img src="https://contributors-img.web.app/image?repo=TEJAS12Oct/BookMyMaid" />
+			
 <div>
 <div align="center">
 	<i class="bx bx-chevron-right"></i> <a href="https://github.com/suyogpandagare">| Suyog P |</a>
