@@ -62,7 +62,20 @@ This application accomplishes splitting bills easily & keep track of expenses. I
 
 ### Your web Application is ready to use on your machine.
    
+<hr>
 
+ 
+<h2 align="center"> Project Contributors </h2>
+<div align="center">
+			<img src="https://contributors-img.web.app/image?repo=TEJAS12Oct/BookMyMaid" />
+<div>
+<div align="center">
+	<i class="bx bx-chevron-right"></i> <a href="https://github.com/suyogpandagare">| Suyog P |</a>
+	<i class="bx bx-chevron-right"></i> <a href="https://github.com/ruchita1997">| Shreyas B |</a>
+	<i class="bx bx-chevron-right"></i> <a href="https://github.com/mayurnigade">| Abhilash T |</a>
+	<i class="bx bx-chevron-right"></i> <a href="https://github.com/Atharvab30">| Himanshu R |</a>
+	<i class="bx bx-chevron-right"></i> <a href="https://github.com/Akshay177331">| Sonali J|</a>
+</div>  
    
 
      
